@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MBI Calculator</string>
+    <string name="enter_your_height_cm">Höhe eingeben</string>
+    <string name="enter_your_weight_kg">Gewicht eingeben</string>
+    <string name="calculate_bmi">bmi berechnen</string>
+</resources>

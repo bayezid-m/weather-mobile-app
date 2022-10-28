@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MBI Calculator</string>
+    <string name="enter_your_height_cm">syötä pituutesi</string>
+    <string name="enter_your_weight_kg">syötä painosi</string>
+    <string name="calculate_bmi">laske bmi</string>
+</resources>
