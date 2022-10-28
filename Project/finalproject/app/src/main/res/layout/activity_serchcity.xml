@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finalback"
+    android:textAlignment="gravity"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="137dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="295dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FFFEFE"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cityname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FDFCFC"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperature" />
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="288dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FDFDFD"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cityname" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FFFEFE"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/condition" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="316dp"
+        android:background="#397BE8"
+        android:elegantTextHeight="true"
+        android:onClick="searchit"
+        android:padding="4dp"
+        android:shadowColor="#1A237E"
+        android:text="@string/search"
+        android:textAlignment="center"
+        android:textColor="#F6F5F5"
+        android:textColorHighlight="#311B92"
+        android:textColorHint="#311B92"
+        android:textColorLink="#311B92"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/searchbar"
+        android:layout_width="368dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="23dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/enter_a_city"
+        android:textColor="#FDFCFC"
+        android:textColorHint="#F8F3F3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

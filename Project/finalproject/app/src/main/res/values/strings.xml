@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">finalproject</string>
+    <string name="search_for_a_city">Search for a city</string>
+    <string name="weather_here">Weather here</string>
+    <string name="user_s_location">User\'s Location</string>
+    <string name="search">search</string>
+    <string name="enter_a_city">Enter a city</string>
+</resources>

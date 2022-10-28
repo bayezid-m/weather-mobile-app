@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">finalproject</string>
+    <string name="search_for_a_city">শহর অনুসন্ধান করুন</string>
+    <string name="weather_here">এখানে আবহাওয়া</string>
+    <string name="user_s_location">ব্যবহারকারীর অবস্থান</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="enter_a_city">একটি শহর লিখুন</string>
+</resources>

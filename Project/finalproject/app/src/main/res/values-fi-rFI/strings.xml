@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">finalproject</string>
+    <string name="search_for_a_city">etsiä kaupunkia</string>
+    <string name="weather_here">sää täällä</string>
+    <string name="user_s_location">käyttäjän sijainti</string>
+    <string name="search">Hae</string>
+    <string name="enter_a_city">astu kaupunkiin</string>
+</resources>
